@@ -1,0 +1,524 @@
+{
+    "ise":
+    {
+        "type": "weapon", "subType": "cannon", "token": "ise", "price": 250, "size": 1, "class": 0, "barrel": 26, "width": 6,
+        "consumption": 15, "edmg": 50, "kdmg": 15, "range": 450, "mspeed": 750, "rate": 250, "rspeed": 360,
+        "sprite": "spr_item_ise", "bulletSprite": "spr_bullet_ise", "sound": "snd_bullet_ise"
+    },
+
+    "pbk":
+    {
+        "type": "weapon", "subType": "cannon", "token": "pbk", "price": 500, "size": 5, "class": 0, "barrel": 26, "width": 8,
+        "consumption": 30, "edmg": 150, "kdmg": 35, "range": 600, "mspeed": 600, "rate": 333, "rspeed": 270,
+        "sprite": "spr_item_pbk", "bulletSprite": "spr_bullet_pbk", "sound": "snd_bullet_pbk"
+    },
+
+    "epw":
+    {
+        "type": "weapon", "subType": "cannon", "token": "epw", "price": 1000, "size": 10, "class": 0, "barrel": 30, "width": 12,
+        "consumption": 60, "edmg": 550, "kdmg": 90, "range": 750, "mspeed": 450, "rate": 500, "rspeed": 180,
+        "sprite": "spr_item_epw", "bulletSprite": "spr_bullet_epw", "sound": "snd_bullet_epw"
+    },
+
+    "pik":
+    {
+        "type": "weapon", "subType": "cannon", "token": "pik", "price": 2500, "size": 1, "class": 0, "barrel": 36, "width": 10,
+        "consumption": 10, "edmg": 2500, "kdmg": 400,  "range": 1000, "mspeed": 1000, "rate": 200, "rspeed": 270,
+        "sprite": "spr_item_pik", "bulletSprite": "spr_bullet_pik", "sound": "snd_bullet_pik"
+    },
+
+    "swg":
+    {
+        "type": "weapon", "subType": "cannon", "token": "swg", "price": 50000, "size": 50, "class": 0,
+        "consumption": 0, "edmg": 0, "kdmg": 0, "range": 0, "mspeed": 0, "rate": 100
+    },
+
+    "id":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "id",
+        "price": 500000,
+        "size": 50,
+        "class": 0,
+        "consumption": 0,
+        "edmg": 0,
+        "kdmg": 0,
+        "range": 0,
+        "mspeed": 0,
+        "rate": 100
+    },
+
+    "eig":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "eig",
+        "price": 2000,
+        "size": 50,
+        "class": 0,
+        "consumption": 0,
+        "edmg": 0,
+        "kdmg": 0,
+        "range": 0,
+        "mspeed": 0,
+        "rate": 100
+    },
+
+    "psg":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "psg",
+        "price": 20000,
+        "size": 50,
+        "class": 0,
+        "consumption": 0,
+        "edmg": 0,
+        "kdmg": 0,
+        "range": 0,
+        "mspeed": 0,
+        "rate": 100
+    },
+
+    "sbw":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "sbw",
+        "price": 200000,
+        "size": 50,
+        "class": 0,
+        "consumption": 0,
+        "edmg": 0,
+        "kdmg": 0,
+        "range": 0,
+        "mspeed": 0,
+        "rate": 100
+    },
+
+    "emp":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "emp",
+        "price": 3000,
+        "size": 50,
+        "class": 0,
+        "consumption": 0,
+        "edmg": 0,
+        "kdmg": 0,
+        "range": 0,
+        "mspeed": 0,
+        "rate": 100
+    },
+
+    "lg":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "lg",
+        "price": 30000,
+        "size": 50,
+        "class": 1,
+        "consumption": 0,
+        "edmg": 1000,
+        "kdmg": 10,
+        "range": 0,
+        "mspeed": 10000,
+        "rate": 500
+    },
+
+    "tlg":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "tlg",
+        "price": 90000,
+        "size": 50,
+        "class": 2,
+        "consumption": 0,
+        "edmg": 3000,
+        "kdmg": 30,
+        "range": 0,
+        "mspeed": 10000,
+        "rate": 500
+    },
+
+    "pk":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "pk",
+        "price": 250,
+        "size": 2,
+        "class": 0,
+        "consumption": 5,
+        "edmg": 10,
+        "kdmg": 150,
+        "range": 450,
+        "mspeed": 600,
+        "rspeed": 360,
+        "rate": 120,
+        "barrel": 17,
+        "width": 4,
+        "sprite": "spr_item_pk",
+        "bulletSprite": "spr_bullet_pk",
+        "sound": "snd_bullet_pk"
+    },
+
+    "zpk":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "zpk",
+        "price": 750,
+        "size": 5,
+        "class": 0,
+        "consumption": 12,
+        "edmg": 20,
+        "kdmg": 350,
+        "range": 600,
+        "mspeed": 700,
+        "rspeed": 270,
+        "rate": 140,
+        "barrel": 17,
+        "width": 6,
+        "sprite": "spr_item_zpk",
+        "bulletSprite": "spr_bullet_zpk",
+        "sound": "snd_bullet_zpk"
+    },
+
+    "mds":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "mds",
+        "price": 1000,
+        "size": 50,
+        "class": 4,
+        "consumption": 100,
+        "edmg": 1,
+        "kdmg": 250,
+        "range": 500,
+        "mspeed": 800,
+        "rspeed": 90,
+        "rate": 100,
+        "barrel": 17,
+        "width": 10,
+        "sprite": "spr_item_mds",
+        "bulletSprite": "spr_bullet_mds",
+        "sound": "snd_bullet_epw"
+    },
+
+    "rk":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "rk",
+        "price": 50000,
+        "size": 50,
+        "class": 0,
+        "consumption": 0,
+        "edmg": 0,
+        "kdmg": 0,
+        "range": 0,
+        "mspeed": 0,
+        "rate": 100
+    },
+
+    "rl":
+    {
+        "type": "weapon",
+        "subType": "cannon",
+        "token": "rl",
+        "sprite": "spr_item_ise",
+        "price": 10000,
+        "size": 10,
+        "class": 0,
+        "consumption": 1,
+        "edmg": 10,
+        "kdmg": 0,
+        "range": 200,
+        "mspeed": 5000,
+        "rate": 100
+    },
+
+    "1mj":
+    {
+        "type": "upgrade",
+        "subType": "shield",
+        "token": "1mj",
+        "sprite": "spr_item_1mj",
+        "price": 100,
+        "size": 1,
+        "class": 0,
+        "energy": 1000
+    },
+
+    "5mj":
+    {
+        "type": "upgrade",
+        "subType": "shield",
+        "token": "5mj",
+        "sprite": "spr_item_5mj",
+        "price": 500,
+        "size": 5,
+        "class": 0,
+        "energy": 5000
+    },
+
+    "25mj":
+    {
+        "type": "upgrade",
+        "subType": "shield",
+        "token": "25mj",
+        "sprite": "spr_item_25mj",
+        "price": 2500,
+        "size": 10,
+        "class": 1,
+        "energy": 25000
+    },
+
+    "200mj":
+    {
+        "type": "upgrade",
+        "subType": "shield",
+        "token": "200mj",
+        "sprite": "spr_item_200mj",
+        "price": 20000,
+        "size": 50,
+        "class": 2,
+        "energy": 200000
+    },
+
+    "1gj":
+    {
+        "type": "upgrade",
+        "subType": "shield",
+        "token": "1gj",
+        "sprite": "spr_item_1gj",
+        "price": 100000,
+        "size": 100,
+        "class": 3,
+        "energy": 1000000
+    },
+
+    "2gj":
+    {
+        "type": "upgrade",
+        "subType": "shield",
+        "token": "2gj",
+        "sprite": "spr_item_2gj",
+        "price": 200000,
+        "size": 150,
+        "class": 3,
+        "energy": 2000000
+    },
+
+    "10gj":
+    {
+        "type": "upgrade",
+        "subType": "shield",
+        "token": "10gj",
+        "sprite": "spr_item_10gj",
+        "price": 1000000,
+        "size": 250,
+        "class": 4,
+        "energy": 10000000
+    },
+
+    "needle":
+    {
+        "type": "weapon",
+        "subType": "rocket",
+        "token": "needle",
+        "sprite": "spr_item_rocket",
+        "price": 50,
+        "size": 1,
+        "class": 0,
+        "sound": "snd_rocket",
+        "edmg": 1000,
+        "kdmg": 1000,
+        "mspeed": 250
+    },
+
+    "sting":
+    {
+        "type": "weapon",
+        "subType": "rocket",
+        "token": "sting",
+        "sprite": "spr_item_rocket",
+        "price": 100,
+        "size": 1,
+        "class": 0,
+        "sound": "snd_rocket",
+        "edmg": 2000,
+        "kdmg": 2000,
+        "mspeed": 200
+    },
+
+    "thorn":
+    {
+        "type": "weapon",
+        "subType": "rocket",
+        "token": "thorn",
+        "sprite": "spr_item_rocket",
+        "price": 200,
+        "size": 1,
+        "class": 0,
+        "sound": "snd_rocket",
+        "edmg": 5000,
+        "kdmg": 5000,
+        "mspeed": 150
+    },
+
+    "lance":
+    {
+        "type": "weapon",
+        "subType": "rocket",
+        "token": "lance",
+        "sprite": "spr_item_rocket",
+        "price": 1000,
+        "size": 1,
+        "class": 0,
+        "sound": "snd_rocket",
+        "edmg": 20000,
+        "kdmg": 20000,
+        "mspeed": 50
+    },
+
+    "ore":
+    {
+        "type": "good",
+        "token": "ore",
+        "sprite": "spr_item_ore",
+        "price": 10,
+        "size": 1,
+        "class": 1
+    },
+
+    "crystal":
+    {
+        "type": "good",
+        "token": "crystal",
+        "sprite": "spr_item_crystal",
+        "price": 500,
+        "size": 5,
+        "class": 1
+    },
+
+    "cell":
+    {
+        "type": "good",
+        "token": "cell",
+        "sprite": "spr_item_cell",
+        "price": 10,
+        "size": 1,
+        "class": 0
+    },
+
+    "booster":
+    {
+        "type": "upgrade",
+        "token": "booster",
+        "sprite": "spr_item_upgrade",
+        "price": 5000,
+        "size": 0,
+        "class": 0
+    },
+
+    "tractor":
+    {
+        "type": "upgrade",
+        "token": "tractor",
+        "sprite": "spr_item_upgrade",
+        "price": 250,
+        "size": 0,
+        "class": 0
+    },
+
+    "sim_scnr":
+    {
+        "type": "upgrade",
+        "token": "sim_scnr",
+        "sprite": "spr_item_upgrade",
+        "price": 100,
+        "size": 0,
+        "class": 0,
+        "range": 1500
+    },
+
+    "dup_scnr":
+    {
+        "type": "upgrade",
+        "token": "dup_scnr",
+        "sprite": "spr_item_upgrade",
+        "price": 500,
+        "size": 0,
+        "class": 0,
+        "range": 3000
+    },
+
+    "tri_scnr":
+    {
+        "type": "upgrade",
+        "token": "tri_scnr",
+        "sprite": "spr_item_upgrade",
+        "price": 2000,
+        "size": 0,
+        "class": 1,
+        "range": 6000
+    },
+
+    "qua_scnr":
+    {
+        "type": "upgrade",
+        "token": "qua_scnr",
+        "sprite": "spr_item_upgrade",
+        "price": 10000,
+        "size": 0,
+        "class": 2,
+        "range": 9000
+    },
+
+    "indicator":
+    {
+        "type": "upgrade",
+        "token": "indicator",
+        "sprite": "spr_item_upgrade",
+        "price": 250,
+        "size": 0,
+        "class": 0
+    },
+
+    "freight_scnr":
+    {
+        "type": "upgrade",
+        "token": "freight_scnr",
+        "sprite": "spr_item_upgrade",
+        "price": 5000,
+        "size": 0,
+        "class": 0
+    },
+
+    "credit":
+    {
+        "type": "other",
+        "token": "credit",
+        "sprite": "spr_credits",
+        "price": 0,
+        "size": 0,
+        "class": 0
+    },
+
+    "police":
+    {
+        "type": "other",
+        "token": "police",
+        "sprite": "spr_item_container",
+        "price": 500,
+        "size": 0,
+        "class": 0
+    }
+}

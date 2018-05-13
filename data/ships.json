@@ -1,0 +1,680 @@
+{
+    "drone":
+    {
+        "general":
+        {
+            "name": "Drohne",
+            "class": 0,
+            "price": 0,
+
+            "hull":  100,
+            "mspd":  120,
+            "steer": 90,
+
+            "generator": 250,
+
+            "radius": 48
+        },
+
+        "sprites":
+        {
+            "ship":       "spr_ship_m0",
+            "ship_hit":   "spr_ship_m0_hit",
+            "ship_wreck": "spr_ship_m0_wreck",
+
+            "map":       "spr_map_ship_m0",
+            "map_enemy": "spr_map_ship_m0_enemy",
+            "map_you":   "spr_map_ship_m0_you"
+        },
+
+        "collision":
+        {
+            "mass": 100,
+            "polygon": [[42,22],[52,22],[65,50],[105,50],[105,80],[65,80],[42,104],[52,104],[42,80],[24,70],[24,58],[42,50]]
+        },
+
+        "weapons":
+        {
+            "slots":
+            [
+                { "distance": 9, "angle": 180, "class": 0, "start": "ise" }
+            ],
+            "compatible": ["ise"]
+        },
+
+        "shields":
+        {
+            "slots":
+            [
+                { "start": "1mj" }
+            ],
+            "compatible": ["1mj"]
+        },
+
+        "engines":
+        {
+            "slots":
+            [
+                { "distance": 26, "angle": 180, "size": 25 }
+            ]
+        },
+
+        "cargo": { "name": "S", "class": 2, "size": 50 },
+
+        "tractor": { "range": 0, "speed": 0 },
+
+        "integrated":
+        [
+            "sim_scnr"
+        ]
+    },
+
+    "fighter":
+    {
+        "general":
+        {
+            "name": "fighter",
+            "class": 3,
+            "price": 1000,
+
+            "hull":  5000,
+            "mspd":  300,
+            "steer": 240,
+
+            "generator": 200,
+
+            "radius": 80
+        },
+
+        "sprites":
+        {
+            "ship":       "spr_ship_m3",
+            "ship_hit":   "spr_ship_m3_hit",
+            "ship_wreck": "spr_ship_m3_wreck",
+
+            "map":       "spr_map_ship_m3",
+            "map_enemy": "spr_map_ship_m3_enemy",
+            "map_you":   "spr_map_ship_m3_you"
+        },
+
+        "collision":
+        {
+            "mass": 100,
+            "polygon": [[42,22],[52,22],[65,50],[105,50],[105,80],[65,80],[42,104],[52,104],[42,80],[24,70],[24,58],[42,50]]
+        },
+
+        "weapons":
+        {
+            "slots":
+            [
+                { "distance": 36, "angle": 245, "class": 2, "start": "ise" },
+                { "distance": 36, "angle": 115, "class": 2, "start": "ise" },
+                { "distance": 34, "angle": 330, "class": 1, "start": null  },
+                { "distance": 34, "angle": 30,  "class": 1, "start": null  }
+            ],
+            "compatible": ["ise", "pbk", "epw", "pk", "zpk"]
+        },
+
+        "shields":
+        {
+            "slots":
+            [
+                { "start": "5mj" },
+                {}
+            ],
+            "compatible": ["1mj", "5mj", "25mj"]
+        },
+
+        "engines":
+        {
+            "slots":
+            [
+                { "distance": 50, "angle": 180, "size": 40 }
+            ]
+        },
+
+        "cargo": { "name": "L", "class": 2, "size": 150 },
+
+        "tractor": { "range": 200, "speed": 200 },
+
+        "integrated":
+        [
+            "sim_scnr"
+        ]
+    },
+
+    "cruiser":
+    {
+        "general":
+        {
+            "name": "Cruiser",
+            "class": 5,
+            "price": 25000,
+
+            "hull":  25000,
+            "mspd":  200,
+            "steer": 75,
+
+            "generator": 5000,
+
+            "radius": 196
+        },
+
+        "sprites":
+        {
+            "ship":       "spr_ship_m5",
+            "ship_hit":   "spr_ship_m5_hit",
+            "ship_wreck": "spr_ship_m5_wreck",
+
+            "map":       "spr_map_ship_m5",
+            "map_enemy": "spr_map_ship_m5_enemy",
+            "map_you":   "spr_map_ship_m5_you"
+        },
+
+        "collision":
+        {
+            "mass": 100,
+            "polygon": [[42,22],[52,22],[65,50],[105,50],[105,80],[65,80],[42,104],[52,104],[42,80],[24,70],[24,58],[42,50]]
+        },
+
+        "weapons":
+        {
+            "slots":
+            [
+                { "distance": 40, "angle": 180, "class": 4, "start": "pbk" },
+                { "distance": 55, "angle": 337, "class": 2, "start": "pbk" },
+                { "distance": 55, "angle": 23,  "class": 2, "start": "pbk" },
+                { "distance": 72, "angle": 207, "class": 3, "start": "pbk" },
+                { "distance": 72, "angle": 153, "class": 3, "start": "pbk" }
+            ],
+            "compatible": ["ise", "pbk", "epw", "pk", "zpk"]
+        },
+
+        "shields":
+        {
+            "slots":
+            [
+                { "start": "5mj" },
+                { "start": "5mj" },
+                {}
+            ],
+            "compatible": ["1mj", "5mj", "25mj"]
+        },
+
+        "engines":
+        {
+            "slots":
+            [
+                { "distance": 108, "angle": 197, "size": 45 },
+                { "distance": 108, "angle": 163, "size": 45 }
+            ]
+        },
+
+        "cargo": { "name": "L", "class": 3, "size": 500 },
+
+        "tractor": { "range": 200, "speed": 200 },
+
+        "integrated":
+        [
+            "dup_scnr"
+        ]
+    },
+
+    "destroyer":
+    {
+        "general":
+        {
+            "name": "Destroyer",
+            "class": 6,
+            "price": 250000,
+
+            "hull":  150000,
+            "mspd":  140,
+            "steer": 40,
+
+            "generator": 7500,
+
+            "radius": 280
+        },
+
+        "sprites":
+        {
+            "ship":       "spr_ship_m6",
+            "ship_hit":   "spr_ship_m6_hit",
+            "ship_wreck": "spr_ship_m6_wreck",
+
+            "map":       "spr_map_ship_m6",
+            "map_enemy": "spr_map_ship_m6_enemy",
+            "map_you":   "spr_map_ship_m6_you"
+        },
+
+        "collision":
+        {
+            "mass": 100,
+            "polygon": [[42,22],[52,22],[65,50],[105,50],[105,80],[65,80],[42,104],[52,104],[42,80],[24,70],[24,58],[42,50]]
+        },
+
+        "weapons":
+        {
+            "slots":
+            [
+                 { "distance": 103, "angle": 180, "class": 5, "start": "epw" },
+                 { "distance": 77,  "angle": 296, "class": 3, "start": "epw" },
+                 { "distance": 101, "angle": 315, "class": 2, "start": "epw" },
+                 { "distance": 116, "angle": 334, "class": 1, "start": "epw" },
+                 { "distance": 116, "angle": 26,  "class": 1, "start": "epw" },
+                 { "distance": 101, "angle": 45,  "class": 2, "start": "epw" },
+                 { "distance": 77,  "angle": 64,  "class": 3, "start": "epw" },
+                 { "distance": 58,  "angle": 0,   "class": 4, "start": "epw" }
+            ],
+            "compatible": ["ise", "pbk", "epw", "pk", "zpk"]
+        },
+
+        "shields":
+        {
+            "slots":
+            [
+                { "start": "5mj" },
+                { "start": "5mj" },
+                { "start": "5mj" },
+                { "start": "5mj" },
+                { "start": "5mj" },
+                { "start": "5mj" }
+            ],
+            "compatible": ["1mj", "5mj", "25mj", "125mj"]
+        },
+
+        "engines":
+        {
+            "slots":
+            [
+                { "distance": 151, "angle": 190, "size": 55 },
+                { "distance": 151, "angle": 170, "size": 55 }
+            ]
+        },
+
+        "cargo": { "name": "XXL", "class": 5, "size": 7500 },
+
+        "tractor": { "range": 300, "speed": 200 },
+
+        "integrated":
+        [
+            "tri_scnr"
+        ]
+    },
+
+    "n":
+    {
+        "general":
+        {
+            "name": "N",
+            "class": 1,
+            "price": 5000,
+
+            "hull":  600,
+            "mspd":  160,
+            "steer": 180,
+
+            "generator": 500,
+
+            "radius": 64
+        },
+
+        "sprites":
+        {
+            "ship":       "spr_ship_m1b_npc",
+            "ship_hit":   "spr_ship_m1b_npc_hit",
+            "ship_wreck": "spr_ship_m1b_npc_wreck",
+
+            "map":       "spr_map_ship_m1_enemy",
+            "map_enemy": "spr_map_ship_m1_enemy",
+            "map_you":   "spr_map_ship_m1_you"
+        },
+
+        "collision":
+        {
+            "mass": 100,
+            "polygon": [[42,22],[52,22],[65,50],[105,50],[105,80],[65,80],[42,104],[52,104],[42,80],[24,70],[24,58],[42,50]]
+        },
+
+        "weapons":
+        {
+            "slots":
+            [
+                { "distance": 6, "angle": 180, "class": 0, "start": "ise" }
+            ],
+            "compatible": ["ise", "pbk", "epw", "pk", "zpk"]
+        },
+
+        "shields":
+        {
+            "slots":
+            [
+                { "start": "1mj" },
+                {}
+            ],
+            "compatible": ["1mj", "5mj"]
+        },
+
+        "engines":
+        {
+            "slots":
+            [
+                { "distance": 33, "angle": 180, "size": 30 }
+            ]
+        },
+
+        "cargo": { "name": "S", "class": 2, "size": 100 },
+
+        "tractor": { "range": 200, "speed": 200 },
+
+        "integrated":
+        [
+            "sim_scnr"
+        ]
+    },
+
+
+    "l":
+    {
+        "general":
+        {
+            "name": "L",
+            "class": 3,
+            "price": 35000,
+
+            "hull":  6000,
+            "mspd":  110,
+            "steer": 120,
+
+            "generator": 1500,
+
+            "radius": 128
+        },
+
+        "sprites":
+        {
+            "ship":       "spr_ship_m3_npc",
+            "ship_hit":   "spr_ship_m3_npc_hit",
+            "ship_wreck": "spr_ship_m3_npc_wreck",
+
+            "map":       "spr_map_ship_m3_enemy",
+            "map_enemy": "spr_map_ship_m3_enemy",
+            "map_you":   "spr_map_ship_m3_you"
+        },
+
+        "collision":
+        {
+            "mass": 100,
+            "polygon": [[42,22],[52,22],[65,50],[105,50],[105,80],[65,80],[42,104],[52,104],[42,80],[24,70],[24,58],[42,50]]
+        },
+
+        "weapons":
+        {
+            "slots":
+            [
+                { "distance": 23, "angle": 94, "class": 2, "start": "pbk" },
+                { "distance": 23, "angle": 266, "class": 2, "start": "pbk" }
+            ],
+            "compatible": ["ise", "pbk", "epw", "pk", "zpk"]
+        },
+
+        "shields":
+        {
+            "slots":
+            [
+                { "start": "5mj" },
+                { "start": "1mj" }
+            ],
+            "compatible": ["1mj", "5mj", "25mj"]
+        },
+
+        "engines":
+        {
+            "slots":
+            [
+                { "distance": 70, "angle": 193, "size": 35 },
+                { "distance": 70, "angle": 167, "size": 35 }
+            ]
+        },
+
+        "cargo": { "name": "L", "class": 2, "size": 500 },
+
+        "tractor": { "range": 200, "speed": 200 },
+
+        "integrated":
+        [
+            "sim_scnr"
+        ]
+    },
+
+    "p":
+    {
+        "general":
+        {
+            "name": "P",
+            "class": 5,
+            "price": 105000,
+
+            "hull":  16000,
+            "mspd":  80,
+            "steer": 60,
+
+            "generator": 2500,
+
+            "radius": 180
+        },
+
+        "sprites":
+        {
+            "ship":       "spr_ship_m5_npc",
+            "ship_hit":   "spr_ship_m5_npc_hit",
+            "ship_wreck": "spr_ship_m5_npc_wreck",
+
+            "map":       "spr_map_ship_m5_enemy",
+            "map_enemy": "spr_map_ship_m5_enemy",
+            "map_you":   "spr_map_ship_m5_you"
+        },
+
+        "collision":
+        {
+            "mass": 100,
+            "polygon": [[42,22],[52,22],[65,50],[105,50],[105,80],[65,80],[42,104],[52,104],[42,80],[24,70],[24,58],[42,50]]
+        },
+
+        "weapons":
+        {
+            "slots":
+            [
+                { "distance": 45, "angle": 210, "class": 2   , "start": "pbk" },
+                { "distance": 45, "angle": 150, "class": 2, "start": "pbk" },
+                { "distance": 20, "angle": 0, "class": 3, "start": "zpk" }
+            ],
+            "compatible": ["ise", "pbk", "epw", "pk", "zpk"]
+        },
+
+        "shields":
+        {
+            "slots":
+            [
+                { "start": "25mj" },
+                { "start": "5mj" },
+                { "start": "5mj" },
+                {}
+            ],
+            "compatible": ["1mj", "5mj", "25mj"]
+        },
+
+        "engines":
+        {
+            "slots":
+            [
+                { "distance": 100, "angle": 186, "size": 30 },
+                { "distance": 100, "angle": 174, "size": 30 }
+            ]
+        },
+
+        "cargo": { "name": "L", "class": 3, "size": 2000 },
+
+        "tractor": { "range": 200, "speed": 200 },
+
+        "integrated":
+        [
+            "dup_scnr"
+        ]
+    },
+
+    "q":
+    {
+        "general":
+        {
+            "name": "Q",
+            "class": 6,
+            "price": 305000,
+
+            "hull":  60000,
+            "mspd":  60,
+            "steer": 40,
+
+            "generator": 4000,
+
+            "radius": 250
+        },
+
+        "sprites":
+        {
+            "ship":       "spr_ship_m6_npc",
+            "ship_hit":   "spr_ship_m6_npc_hit",
+            "ship_wreck": "spr_ship_m6_npc_wreck",
+
+            "map":       "spr_map_ship_m6_enemy",
+            "map_enemy": "spr_map_ship_m6_enemy",
+            "map_you":   "spr_map_ship_m6_you"
+        },
+
+        "collision":
+        {
+            "mass": 100,
+            "polygon": [[42,22],[52,22],[65,50],[105,50],[105,80],[65,80],[42,104],[52,104],[42,80],[24,70],[24,58],[42,50]]
+        },
+
+        "weapons":
+        {
+            "slots":
+            [
+                { "distance": 59, "angle": 325, "class": 3, "start": "pk" },
+                { "distance": 59, "angle": 35,  "class": 3, "start": "pk" },
+                { "distance": 41, "angle": 305, "class": 3, "start": "zpk" },
+                { "distance": 41, "angle": 55,  "class": 3, "start": "zpk" },
+                { "distance": 56, "angle": 217, "class": 3, "start": "pbk" },
+                { "distance": 56, "angle": 143, "class": 3, "start": "pbk" },
+                { "distance": 78, "angle": 205, "class": 4, "start": "epw" },
+                { "distance": 78, "angle": 155, "class": 4, "start": "epw" }
+            ],
+            "compatible": ["ise", "pbk", "epw", "pk", "zpk"]
+        },
+
+        "shields":
+        {
+            "slots":
+            [
+                { "start": "25mj" },
+                { "start": "25mj" },
+                { "start": "5mj" },
+                { "start": "5mj" },
+                { "start": "5mj" },
+                {}
+            ],
+            "compatible": ["1mj", "5mj", "25mj", "125mj"]
+        },
+
+        "engines":
+        {
+            "slots":
+            [
+                { "distance": 140, "angle": 186, "size": 45 },
+                { "distance": 140, "angle": 174, "size": 45 }
+            ]
+        },
+
+        "cargo": { "name": "XL", "class": 4, "size": 5000 },
+
+        "tractor": { "range": 200, "speed": 200 },
+
+        "integrated":
+        [
+            "tri_scnr"
+        ]
+    },
+
+    "trader":
+    {
+        "general":
+        {
+            "name": "Trader",
+            "class": 0,
+            "price": 0,
+
+            "hull":  10000,
+            "mspd":  140,
+            "steer": 60,
+
+            "generator": 1000,
+
+            "radius": 130
+        },
+
+        "sprites":
+        {
+            "ship":       "spr_ship_ts",
+            "ship_hit":   "spr_ship_ts_hit",
+            "ship_wreck": "spr_ship_ts_wreck",
+
+            "map":       "spr_map_ship_ts",
+            "map_enemy": "spr_map_ship_ts_enemy",
+            "map_you":   "spr_map_ship_ts_you"
+        },
+
+        "collision":
+        {
+            "mass": 100,
+            "polygon": [[42,22],[52,22],[65,50],[105,50],[105,80],[65,80],[42,104],[52,104],[42,80],[24,70],[24,58],[42,50]]
+        },
+
+        "weapons":
+        {
+            "slots":
+            [
+                { "distance": 48, "angle": 201, "class": 0, "start": "mds" },
+                { "distance": 48, "angle": 159, "class": 0 }
+            ],
+            "compatible": ["ise", "pbk", "epw", "pk", "zpk", "mds"]
+        },
+
+        "shields":
+        {
+            "slots":
+            [
+                { "start": "200mj" }
+            ],
+            "compatible": ["1mj", "5mj", "25mj", "125mj", "200mj"]
+        },
+
+        "engines":
+        {
+            "slots":
+            [
+                { "distance": 75, "angle": 180, "size": 40 }
+            ]
+        },
+
+        "cargo": { "name": "XL", "class": 4, "size": 10000 },
+
+        "tractor": { "range": 200, "speed": 200 },
+
+        "integrated":
+        [
+            "sim_scnr"
+        ]
+    }
+}

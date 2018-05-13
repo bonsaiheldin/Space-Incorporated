@@ -1,0 +1,210 @@
+{
+    "0-0":
+    {
+        "name": "sector_0-0",
+        "description": "sector_0-0_desc",
+        "x": 0,
+        "y": 1,
+        "id": "0-0",
+        "size": 12000,
+        "music": "bgm_0-0",
+        "background": "bg_space01.png",
+        "minimap": "spr_gui_minimap_bg01",
+
+        "asteroids": [60, 30, 15],
+
+        "gates":
+        [
+            { "type": "east", "x": 5750, "y": 0, "destination": {  "sector": "0-1", "x": -5750, "y": 0 }}
+        ],
+
+        "stations":
+        [
+            { "race": "terran", "type": "equipment_dock", "x": 0, "y": 0 },
+            { "race": "terran", "type": "crystal_mine", "x": -2000, "y": -3000 },
+            { "race": "terran", "type": "power_plant", "x": -500, "y": 3500 }
+        ],
+
+        "ships":
+        [
+            { "race": "terran", "type": "cruiser" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" },
+            { "type": "drone" }
+        ]
+    },
+
+    "0-1":
+    {
+        "name": "sector_0-1",
+        "description": "sector_0-1_desc",
+        "x": 1,
+        "y": 1,
+        "id": "0-1",
+        "size": 12000,
+        "music": "bgm_0-1",
+        "background": "bg_space02.png",
+        "minimap": "spr_gui_minimap_bg02",
+
+        "asteroids": [60, 30, 15],
+
+        "gates":
+        [
+            { "type": "south", "x": 0, "y": 5750, "destination": { "sector": "0-3", "x": 0, "y": -5750 }},
+            { "type": "west", "x": -5750, "y": 0, "destination": { "sector": "0-0", "x": 5750, "y": 0 }},
+            { "type": "north", "x": 0, "y": -5750, "destination": { "sector": "0-2", "x": 0, "y": 5750 }}
+        ],
+
+        "stations":
+        [
+            { "race": "terran", "type": "trading_station", "x": -1000, "y": -2000 }
+        ],
+
+        "ships":
+        [
+            { "race": "terran", "type": "destroyer" },
+            { "race": "terran", "type": "cruiser" },
+            { "race": "terran", "type": "cruiser" },
+            { "race": "terran", "type": "cruiser" },
+            { "race": "xenon", "type": "p" },
+            { "race": "xenon", "type": "p" },
+            { "race": "xenon", "type": "p" },
+            { "race": "xenon", "type": "l" },
+            { "race": "xenon", "type": "l" },
+            { "race": "xenon", "type": "l" },
+            { "race": "xenon", "type": "l" },
+            { "race": "xenon", "type": "l" },
+            { "race": "xenon", "type": "l" },
+            { "race": "xenon", "type": "l" },
+            { "race": "xenon", "type": "l" },
+            { "race": "xenon", "type": "l" },
+            { "race": "xenon", "type": "l" },
+            { "race": "xenon", "type": "n" },
+            { "race": "xenon", "type": "n" },
+            { "race": "xenon", "type": "n" },
+            { "race": "xenon", "type": "n" },
+            { "race": "xenon", "type": "n" },
+            { "race": "xenon", "type": "n" },
+            { "race": "xenon", "type": "n" },
+            { "race": "xenon", "type": "n" },
+            { "race": "xenon", "type": "n" },
+            { "race": "xenon", "type": "n" }
+        ]
+    },
+
+    "0-2":
+    {
+        "name": "sector_0-2",
+        "description": "sector_0-2_desc",
+        "x": 1,
+        "y": 0,
+        "id": "0-2",
+        "size": 12000,
+        "music": "bgm_0-2",
+        "background": "bg_space03.png",
+        "minimap": "spr_gui_minimap_bg03",
+
+        "asteroids": [100, 70, 30],
+
+        "gates":
+        [
+            { "type": "south", "x": 0, "y": 5750, "destination": { "sector": "0-1", "x": 0, "y": -5750 }}
+        ],
+
+        "stations": [],
+
+        "ships":
+        [
+            { "race": "xenon", "type": "q"},
+            { "race": "xenon", "type": "p"},
+            { "race": "xenon", "type": "p"},
+            { "race": "xenon", "type": "p"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "n"},
+            { "race": "xenon", "type": "n"},
+            { "race": "xenon", "type": "n"},
+            { "race": "xenon", "type": "n"},
+            { "race": "xenon", "type": "n"}
+        ]
+    },
+
+    "0-3":
+    {
+        "name": "sector_0-3",
+        "description": "sector_0-3_desc",
+        "x": 1,
+        "y": 2,
+        "id": "0-3",
+        "size": 12000,
+        "music": "bgm_0-3",
+        "background": "bg_space04.png",
+        "minimap": "spr_gui_minimap_bg04",
+
+        "asteroids": [100, 70, 30],
+
+        "gates":
+        [
+            { "type": "north", "x": 0, "y": -5750, "destination": { "sector": "0-1", "x": 0, "y": 5750 }}
+        ],
+
+        "stations": [],
+
+        "ships":
+        [
+            { "race": "xenon", "type": "q"},
+            { "race": "xenon", "type": "q"},
+            { "race": "xenon", "type": "q"},
+            { "race": "xenon", "type": "p"},
+            { "race": "xenon", "type": "p"},
+            { "race": "xenon", "type": "p"},
+            { "race": "xenon", "type": "p"},
+            { "race": "xenon", "type": "p"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"},
+            { "race": "xenon", "type": "l"}
+        ]
+    }
+}

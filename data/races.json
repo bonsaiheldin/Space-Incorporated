@@ -1,0 +1,94 @@
+{
+    "player":
+    {
+        "name": "player",
+        "token": "P"
+    },
+
+    "astat":
+    {
+        "name": "astat",
+        "token": "A",
+        "allies":
+        [
+            "polon",
+            "terran"
+        ],
+        "enemies":
+        [
+            "xenon"
+        ]
+    },
+
+    "bismut":
+    {
+        "name": "bismut",
+        "token": "B",
+        "allies":
+        [
+            "radon"
+        ],
+        "enemies":
+        [
+            "xenon"
+        ]
+    },
+
+    "polon":
+    {
+        "name": "polon",
+        "token": "P",
+        "allies":
+        [
+            "astat"
+        ],
+        "enemies":
+        [
+            "xenon"
+        ]
+    },
+
+    "radon":
+    {
+        "name": "radon",
+        "token": "R",
+        "allies":
+        [
+            "bismut"
+        ],
+        "enemies":
+        [
+            "xenon"
+        ]
+    },
+
+    "terran":
+    {
+        "name": "terran",
+        "token": "T",
+        "allies":
+        [
+            "astat"
+        ],
+        "enemies":
+        [
+            "xenon"
+        ]
+    },
+
+    "xenon":
+    {
+        "name": "xenon",
+        "token": "X",
+        "allies": [],
+        "enemies":
+        [
+            "player",
+            "astat",
+            "bismut",
+            "polon",
+            "radon",
+            "terran"
+        ]
+    }
+}

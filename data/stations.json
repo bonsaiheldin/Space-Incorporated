@@ -1,0 +1,137 @@
+{
+    "gate":
+    {
+        "name": "gate",
+        "token": "G",
+
+        "sprite": "spr_station_gate",
+        "sprite_minimap": "spr_map_station",
+
+        "width": 370,
+        "height": 370,
+
+        "factory": false
+    },
+
+    "crystal_mine":
+    {
+        "name": "crystal_mine",
+        "token": "CM",
+
+        "sprite": "spr_station_mine",
+        "sprite_minimap": "spr_item_crystal",
+
+        "width": 370,
+        "height": 370,
+
+        "factory": true,
+        "items":
+        {
+            "produces": "crystal",
+            "produces_quantity": 5,
+            "needs": "cell",
+            "needs_quantity": 40,
+            "production_time": 6000,
+
+            "stock":
+            {
+                "crystal": 0,
+                "cell":    4000
+            }
+        }
+    },
+
+    "power_plant":
+    {
+        "name": "power_plant",
+        "token": "PP",
+
+        "sprite": "spr_station_trading_station",
+        "sprite_minimap": "spr_item_cell",
+
+        "width": 470,
+        "height": 470,
+
+        "factory": true,
+        "items":
+        {
+            "produces": "cell",
+            "produces_quantity": 80,
+            "needs": "crystal",
+            "needs_quantity": 10,
+            "production_time": 10000,
+
+            "stock":
+            {
+                "cell":    0,
+                "crystal": 1000
+            }
+        }
+    },
+
+    "equipment_dock":
+    {
+        "name": "equipment_dock",
+        "token": "ED",    
+
+        "sprite": "spr_station_equipment_dock",
+        "sprite_minimap": "spr_map_station_equipment_dock",
+
+        "width": 960,
+        "height": 960,
+
+        "factory": false,
+        "items":
+        {
+            "stock":
+            {
+                "ise":               50,
+                "pbk":               40,
+                "epw":               30,
+                "pk":                40,
+                "zpk":               30,
+                "needle":            99,
+                "1mj":               100,
+                "5mj":               50,
+                "25mj":              25,
+                "200mj":             5,
+                "1gj":               4,
+                "2gj":               2,
+                "10gj":              1,
+                "sim_scnr":          99,
+                "dup_scnr":          99,
+                "tri_scnr":          99,
+                "qua_scnr":          99,
+                "indicator":         99,
+                "tractor":           99,
+                "freight_scnr":      99,
+                "police":            99
+            }
+        }
+    },
+
+    "trading_station":
+    {
+        "name": "trading_station",
+        "token": "TS",
+
+        "sprite": "spr_station_trading_station",
+        "sprite_minimap": "spr_map_station_trading_station",
+
+        "width": 470,
+        "height": 470,
+
+        "factory": false,
+        "items":
+        {
+            "stock":
+            {
+                "needle":    99,
+                "police":    99,
+                "crystal":   0,
+                "cell":      0,
+                "ore":       0
+            }
+        }
+    }
+}
