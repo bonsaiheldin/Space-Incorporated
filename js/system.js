@@ -1,5 +1,5 @@
 /********** BEGIN: System **********/
- 
+
 // Container objects
 let game = {}; // The master object for storing game data
 game.canvas = null;
@@ -159,7 +159,7 @@ game.time =
 {
     before: 0,
     now: Date.now(),
-    delta: 1000 / 60,
+    delta: (1000 / 60) / 1000,
     fps: 60,
     fpsThisSecond: 0,
     fpsLastUpdate: 0
@@ -378,9 +378,9 @@ window.onload = function()
                 f();
             }
 
-            if (this.opacxity < 1) cc.globalAlpha = this.opacity;
+            if (this.opacity < 1) cc.globalAlpha = this.opacity;
             game.drawSprite(this.sprite, this.x, this.y);
-            if (this.opacxity < 1) cc.globalAlpha = 1;
+            if (this.opacity < 1) cc.globalAlpha = 1;
         }
     });
 
