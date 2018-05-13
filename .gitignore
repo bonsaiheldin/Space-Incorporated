@@ -1,1 +1,3 @@
 server/
+js/socket.io.js
+js/socket.io.min.js
