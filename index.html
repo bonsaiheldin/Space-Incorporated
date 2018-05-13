@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+ ____________________________________________________________________________
+|   _                           _ _          _     _                         |
+|  | |__   ___  _ __  ___  __ _(_) |__   ___| | __| |       ___  _ __ __ _   |
+|  | '_ \ / _ \| '_ \/ __|/ _` | | '_ \ / _ \ |/ _` |      / _ \| '__/ _` |  |
+|  | |_) | (_) | | | \__ \ (_| | | | | |  __/ | (_| |  _  | (_) | | | (_| |  |
+|  |_.__/ \___/|_| |_|___/\__,_|_|_| |_|\___|_|\__,_| (_)  \___/|_|  \__, |  |
+|                                                                    |___/   |
+|____________________________________________________________________________|
+
+Hey! What are you doing here?:O
+
+-->
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Space Incorporated</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div id="canvas_layer">
+        <canvas id="game" class="unselectable">Dein Browser kann dieses Spiel leider nicht anzeigen. Tut mir Leid.</canvas>
+    <!-- Test: Datei hochladen (in dem Fall Profilbildchen [trotz fehlender Profile, tröööt!]). Der Bullshit funktioniert aber aus mir unbekannten Gründen nicht. Sieht so aus als muss ich mich in die FileReader-API einlesen. Damit sind coole Sachen möglich!
+    <input type="file" id="upload_portrait" accept="image/jpg,image/jpeg,image/png,image/bmp" onchange="spr_portrait = new Image(); spr_portrait.src = this.files; console.log(this.files); console.log(this.value)" style="position: absolute; top: 10px; left: 40%;">
+    -->
+    </div>
+    <!-- New HTML based GUI - screw that Canvas shit! -->
+    <div id="gui" class="unselectable">
+
+    <!-- Portrait -->
+    <div id="portrait">
+        <div></div>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <div class="sidebar_button" id="sidebar_mission"><div></div></div>
+        <div class="sidebar_button" id="sidebar_ship"><div></div></div>
+        <div class="sidebar_button" id="sidebar_cargo"><div></div></div>
+        <div class="sidebar_button" id="sidebar_sector"><div></div></div>
+        <div class="sidebar_button" id="sidebar_galaxy"><div></div></div>
+        <div class="sidebar_button" id="sidebar_settings" onclick='canvas.focus(); if (! main_menu) { main_menu = true; audio_play_sound(snd_gui_open); } else { main_menu = false; audio_play_sound(snd_gui_close); }'><div></div></div>
+        <div class="sidebar_button" id="sidebar_logout" onclick='new Dialog("logout"); audio_play_sound(snd_gui_open);'><div></div></div>
+     </div>
+
+    <!-- Weapons -->
+    <div id="weaponInfo"></div>
+
+        <!-- Chat -->
+
+        <div id="chat_window" onclick='document.getElementById("chat_emoticons").style.visibility = "hidden"'></div>
+        <div id="chat_div" onclick='document.getElementById("chat_emoticons").style.visibility = "hidden";'>
+            <select id="channel_select" name="chat_channel" size="1" onclick='document.getElementById("chat_emoticons").style.visibility = "hidden"'>
+                <option value="global">Galaxie</option>
+                <option value="sector">Sektor</option>
+            </select>
+            <input id="chat_input" type="text" maxlength="255">
+        </div>
+        <div id="chat_emoticons_activator" onclick='document.getElementById("chat_emoticons").style.visibility = "visible"' title="Emoticons"></div>
+        <div id="chat_emoticons" onclick='document.getElementById("chat_emoticons").style.visibility = "hidden"; chat_input.focus();'>
+            <img src="images/spr_credits.png" onclick='chat_input.focus(); chat_input.value += ":credits:"'><img src='images/spr_item_container.png' onclick='chat_input.focus(); chat_input.value += ":container:"'><img src='images/spr_item_cell.png' onclick='chat_input.focus(); chat_input.value += ":energycell:"'><img src='images/spr_item_crystal.png' onclick='chat_input.focus(); chat_input.value += ":crystal:"'><img src='images/spr_item_ore.png' onclick='chat_input.focus(); chat_input.value += ":ore:"'><img src='images/spr_item_upgrade.png' onclick='chat_input.focus(); chat_input.value += ":upgrade:"'>
+        </div>
+
+    <!-- Minimap buttons -->
+
+    <div class="minimap_button" id="minimap_ships" onclick='if (! map_ships) { audio_play_sound(snd_gui_open);map_ships = true } else { audio_play_sound(snd_gui_close); map_ships = false }'><div></div></div>
+    <div class="minimap_button" id="minimap_stations" onclick='if (! map_stations) { audio_play_sound(snd_gui_open);map_stations = true } else { audio_play_sound(snd_gui_close); map_stations = false }'><div></div></div>
+    <div class="minimap_button" id="minimap_asteroids" onclick='if (! map_asteroids) { audio_play_sound(snd_gui_open);map_asteroids = true } else { audio_play_sound(snd_gui_close); map_asteroids = false }'><div></div></div>
+    <div class="minimap_button" id="minimap_items" onclick='if (! map_items) { audio_play_sound(snd_gui_open);map_items = true } else { audio_play_sound(snd_gui_close); map_items = false }'><div></div></div>
+
+    <div id="infobox" class="infobox"></div>
+
+    <!-- inGame tooltip -->
+    <div id="tooltip"></div>
+
+    </div>
+
+    <!--<script src="js/socket.io.min.js"></script>-->
+    <script src="js/system.js"></script>
+    <script src="js/network.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/entity.js"></script>
+    <script src="js/gui.js"></script>
+    <script src="js/controls.js"></script>
+    <script src="js/loop.js"></script>
+    <script src="js/mainloop.min.js"></script>
+    </body>
+</html>
