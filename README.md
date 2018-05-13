@@ -3,4 +3,6 @@ An unfinished HTML5 2D space game i made to learn Javascript. It's made entirely
 
 You can play it on https://bonsaiheldin.github.io/Space-Incorporated/
 
-**Controls**: WASD and Space
+**Controls**:
+* Moving: WASD or arrow keys
+* Shooting: Space
