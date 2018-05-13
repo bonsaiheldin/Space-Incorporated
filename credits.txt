@@ -1,0 +1,161 @@
+I thank everyone whose stuff i'm using. Without your material my game would look like horse poop. Thank you very much! :)
+
+Note: Some stuff is modified by me, so you may not recognize everything immediately.
+
+//----------------------------------------------------------------------------------------------------//
+
+////////// Images //////////
+
+bg_space01,
+bg_space02,
+bg_space03,
+bg_space04
+- Made with https://wwwtyro.github.io/space-2d/
+
+spr_ship_m0,
+spr_ship_m1_npc*,
+spr_ship_m2*,
+spr_ship_m3*, https://opengameart.org/content/space-game-art-pack-extended
+spr_ship_m3_npc*,
+spr_ship_m5*
+spr_ship_m5_npc*
+spr_ship_m8*,
+spr_ship_m8_npc*,
+spr_station_equipment_dock,
+spr_station_mine,
+spr_station_gate:
+- MillionthVector | http://millionthvector.blogspot.de
+
+spr_station_jumpgate_effect
+- GodsAndIdols.com | CC-BY | http://www.godsandidols.com, http://opengameart.org/content/texture-nebulas
+
+spr_asteroid_s,
+spr_asteroid_m,
+spr_asteroid_l,
+spr_station_ore_mine,
+spr_item_ore:
+- Écrivain | Public Domain | http://opengameart.org/content/rocks
+
+spr_explosion:
+- Retimer | CC-BY | http://opengameart.org/content/wgstudio-explosion-animation
+
+spr_bullet_ise_fire,
+spr_bullet_pbk_fire,
+spr_bullet_epw_fire,
+spr_bullet_pk_fire,
+spr_bullet_zpk_fire
+- Prinsu-Kun | CC-BY | http://opengameart.org/content/blue-fire-effect
+
+spr_gui_sidebar,
+spr_gui_topbar,
+spr_players:
+- Game-icons.net | CC-BY | http://game-icons.net/
+
+// Items
+spr_item_energycell:
+- Merlin2525 | Public Domain | http://openclipart.org/detail/176976/battery-indicator-remix-by-merlin2525-176976
+
+spr_item_crystal:
+- Merlin2525 | Public Domain | https://openclipart.org/detail/172602/diamond-remix-1-by-merlin2525-172602
+
+spr_item_upgrade:
+- witcombem | Public Domain | https://openclipart.org/detail/174480/network-interface-card-by-witcombem-174480
+
+spr_item_shield_1mj,
+spr_item_shield_5mj,
+spr_item_shield_25mj,
+spr_item_shield_125mj,
+spr_item_shield_200mj,
+spr_item_shield_1gj,
+spr_item_shield_2gj,
+spr_item_shield_10gj,
+- inky2010 | Public Domain | https://openclipart.org/detail/78499/glossy-shields-1-by-inky2010
+
+spr_flare
+- Clint Bellanger | Public Domain | http://opengameart.org/content/flare-effect-blender
+
+spr_clock
+- dannya | Public Domain | https://openclipart.org/detail/196813/mono_clock-by-dannya
+
+spr_portrait:
+- noblemaster | CC-BY| http://opengameart.org/content/avatar-generator-with-15-trillion-combinations
+
+////////// Sounds //////////
+
+snd_bonsaiheldin
+jalastram | CC-BY | http://opengameart.org/content/collaboration-sound-effects-fx-006
+
+snd_bullet_ise,
+snd_bullet_pbk,
+snd_bullet_epw:
+- jonccox | CC-BY | http://freesound.org/people/jonccox/sounds/175267/
+
+NEW snd_bullet_ise
+- Triki Minut | CC-BY | http://opengameart.org/content/sci-fi-laser-fire-sfx
+
+snd_bullet_pk, snd_bullet_zpk
+- lensflare8642 | CC0 / Public Domain | http://freesound.org/people/lensflare8642/sounds/145206/
+
+snd_hull
+- qubodup | CC0 / Public Domain | https://opengameart.org/content/crash-collision
+
+snd_bullet_pik:
+- qubodup | CC0 / Public Domain | http://opengameart.org/users/qubodup
+
+snd_rocket:
+- nthompson | CC-Sampling | http://freesound.org/people/nthompson/sounds/47251/
+
+snd_item
+- Blender Foundation | CC-BY | http://blender.org / http://www.yofrankie.org/
+
+snd_hit
+- artisticdude | CC0 / Public Domain | http://opengameart.org/content/battle-sound-effects
+
+snd_chat,
+snd_engine
+OLD - Warzone 2100 | GPL | http://wz2100.net
+NEW - kurt | CC-BY |http://opengameart.org/content/engine-sound
+
+snd_explosion:
+- Blender Foundation | CC-BY | http://apricot.blender.org, http://www.yofrankie.org, http://opengameart.org/content/rockbreaking
+
+snd_gui_open,
+snd_gui_close:
+- Circlerun | Public Domain | http://opengameart.org/content/hi-tech-button-sound-pack-i-non-themed
+
+snd_gui_hover:
+- Circlerun | Public Domain |http://opengameart.org/content/button-sfx-pack-ii-granular-synthesis-styled
+
+snd_login:
+- bart | Public Domain | http://opengameart.org/content/space-ship-shield-sounds
+
+////////// Music //////////
+
+bgm_title
+- Alexandr Zhelanov | CC-By 3.0 | https://opengameart.org/content/a-million-light-years-between-us
+
+bgm_00
+- Alexandr Zhelanov | CC-By 3.0 | http://opengameart.org/content/north-wind-more-music-inside | Madness steeps
+
+bgm_01
+- p0ss | CC-BY-SA | http://opengameart.org/content/poss-cypherfunk-music-futuristic
+
+bgm_02
+- yd | Public Domain | http://opengameart.org/content/another-space-background-track
+
+bgm_03
+- remaxim | CC-BY-SA | http://opengameart.org/content/dark-fallout
+
+bgm_04
+- SouljahdeShiva | CC-BY | http://opengameart.org/content/sonar-tuning-electro-track
+
+////////// Unused yet, but listed for myself for later //////////
+
+Sound: Map zoomin, Map zoomout, Alarm
+- Écrivain | Public Domain | http://opengameart.org/content/random-sfx
+
+//----------------------------------------------------------------------------------------------------//
+
+The rest is made by myself or released under the Public Domain. I try to also write down the PD-Stuff, tough i have to find out again where i got it from. Gonna write down my own stuff too...
+
+If anything here is wrong, i'm sorry! Please contact me then. :)
