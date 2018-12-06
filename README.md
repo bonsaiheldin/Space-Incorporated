@@ -1,5 +1,5 @@
 # Space Incorporated
-The biggest thing i ever programmed. An unfinished HTML5 2D space game i made to teach myself JavaScript. It's made entirely from scratch, without any library or framework, just using a 2d canvas and a simple text editor.
+This is the biggest thing i've ever programmed. An unfinished HTML5 2d space game i made to teach myself JavaScript. It's made entirely from scratch, not using any library or framework, just a 2d canvas and a simple text editor.
 
 You can play it on https://bonsaiheldin.github.io/Space-Incorporated/
 
